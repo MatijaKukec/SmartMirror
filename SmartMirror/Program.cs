@@ -6,7 +6,8 @@ namespace SmartMirror
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var main = new Main();
+            main.Run();
         }
     }
 }
